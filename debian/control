@@ -1,0 +1,17 @@
+Source: starship
+Section: util
+Priority: optional
+Maintainer: Jamie Curnow <jc@jc21.com>
+Build-Depends: debhelper (>= 8.0.0), libgit2-dev, libssl-dev, pkg-config, cmake
+Standards-Version: 4.3.0.1
+Homepage: https://github.com/starship/starship
+Vcs-Git: https://github.com/starship/starship.git
+Vcs-Browser: https://github.com/starship/starship
+
+Package: starship
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Starship is the minimal, blazing fast, and extremely customizable prompt for any shell!
+  The prompt shows information you need while you're working, while staying sleek and out of the way.
