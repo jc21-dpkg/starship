@@ -1,3 +1,9 @@
+starship (0.19.0) unstable; urgency=medium
+
+  * See: https://github.com/starship/starship/releases/tag/v0.19.0
+
+ -- Jamie Curnow <jc@jc21.com>  Thu, 26 Sep 2019 17:00:00 +1000
+
 starship (0.18.0) unstable; urgency=medium
 
   * See: https://github.com/starship/starship/releases/tag/v0.18.0
