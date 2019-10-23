@@ -23,7 +23,7 @@ pipeline {
     stage('Build') {
       steps {
         ansiColor('xterm') {
-          sh './build ubuntu bionic-golang'
+          sh './build ubuntu bionic-rust'
         }
       }
     }
