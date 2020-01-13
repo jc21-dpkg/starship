@@ -1,1 +1,1 @@
-target/release/* /usr/bin
+target/release/starship /usr/bin
